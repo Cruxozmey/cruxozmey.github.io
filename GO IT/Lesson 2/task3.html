@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>task3</title>
+</head>
+
+<body>
+
+  <p>
+    Name: <br>
+    <input type="text" name="name" value="" placeholder="Ivan">
+  </p>
+  <p>
+    Email: <br>
+    <input type="email" name="email" value="" placeholder="random@rng.com">
+  </p>
+  <p>
+    Sex: <br>
+    <input type="radio" name="sex" value="male">Male
+    <input type="radio" name="sex" value="female">Female
+  </p>
+  <p>
+    Current status: <br>
+    <input type="checkbox" name="status" value="student">Student <br>
+    <input type="checkbox" name="status" value="employed">Employed <br>
+    <input type="checkbox" name="status" value="unemployed">Unemployed
+  </p>
+  <p>
+    Month and Year of birth: <br>
+    <select class="mounth" name="mounth">
+      <option value="january" selected>January</option>
+      <option value="febryary">Febryary</option>
+      <option value="march">March</option>
+    </select>
+    <select class="year" name="year">
+      <option value="1983">1983</option>
+      <option value="1984" selected>1984</option>
+      <option value="1985">1985</option>
+      <option value="1986">1986</option>
+      <option value="1987">1987</option>
+      <option value="1988">1988</option>
+    </select>
+  </p>
+  <p>
+    Skills and Technologies: <br>
+    <select multiple size="10">
+      <optgroup label="Tech skills">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="git">git</option>
+      </optgroup>
+      <optgroup label="Soft skills">
+        <option value="time_managment">Time managment</option>
+        <option value="proactivity">Proactivity</option>
+        <option value="teamwork">Teamwork</option>
+        <option value="leadership">Leadership</option>
+      </optgroup>
+    </select>
+  </p>
+  <p>
+    Photo: <br>
+    <input type="file" name="photo" value="Choose file">
+  </p>
+  <p>
+    Comments: <br>
+    <textarea name="comments" rows="8" cols="80"></textarea>
+  </p>
+  <p>
+    <input type="submit" name="save" value="Save">
+  </p>
+</body>
+
+</html>
