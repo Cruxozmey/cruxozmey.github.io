@@ -1,0 +1,39 @@
+body{
+  font-family: "Economica", sans-serif;
+  font-size: 13px;
+}
+
+div.pager {
+  display: inline-block;
+  margin: auto;
+}
+
+.pager a {
+  color: #a64dff;
+  float: left;
+  text-decoration: none;
+  padding: 6px 10px;
+  border: solid #eeeeee 1px;
+  border-radius: 5px;
+  margin: 0 3px;
+}
+
+.pager a.active {
+  background-color: #a64dff;
+  color: white;
+}
+
+.pager a:hover:not(.active) {
+  background-color: #a64dff;
+  color: white;
+}
+
+.pager a.switch-button {
+  border: none;
+  padding: 7px 11px;
+}
+
+.pager a.etc {
+  border: none;
+  padding: 7px 11px;
+}
