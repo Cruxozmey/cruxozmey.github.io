@@ -3,21 +3,5 @@
   border: 2px solid #ee8129;
   border-radius: 5px;
   background: #ffffff;
-  margin: 50px auto;
   width: 300px;
-}
-
-.value {
-  background: #ee8129;
-  color: white;
-  text-align: center;
-  padding: 35px 45px;
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.iconic {
-  text-align: center;
-  padding-top: 22px;
-  font-size: 17px;
 }
